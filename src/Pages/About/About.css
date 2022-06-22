@@ -1,0 +1,82 @@
+.about{
+    padding: 50px 140px;
+    background-color: #f8f9fa;
+    display: flex;
+    margin-top: 10px;
+justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.right_about img{
+   height: 60vh;
+}
+
+.mission{
+    padding: 50px 140px;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+.right_mission img{
+    /* width: 100%; */
+   height: 40vh;
+   padding-right: 90px;
+  
+}
+
+.service{
+    padding: 50px 140px;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.left_service img{
+    padding-left: 50px;
+    height: 40vh;
+}
+.right_service{
+    padding-right: 80px;
+}
+.packages{
+    height: 50vh;
+    padding: 100px 140px;
+    background-color: #f8f9fa;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.packages .main_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    
+}
+.packages .main_div .single_div{
+    color: black;
+    box-shadow: 2px 2px 2px #ffffff;
+    background-color: white;
+    height: 40vh;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.packages .main_div .single_div h1{
+    color: #054fec;
+    font-size: 3.9rem;
+    margin: 0;
+    margin-top: 20px;
+}
+.packages .main_div .single_div h3{
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+}
+.packages .main_div .single_div p{
+    font-weight: 400;
+    font-size: 0.8rem;
+}

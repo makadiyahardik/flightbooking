@@ -1,0 +1,26 @@
+.sliders{
+    padding: 120px 120px;
+    margin: 10px 30px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sliders .images img{
+    height: 50vh;
+ width: 90%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ 
+}
+.sliders .images{
+    gap: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+}
+
+

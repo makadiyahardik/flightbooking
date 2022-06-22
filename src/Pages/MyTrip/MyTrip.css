@@ -1,0 +1,64 @@
+.mytrip{
+    background-color: #258cea;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+   
+}
+.mytrip_booking{
+    background-color: #f8f9fa;
+    height: 50vh;
+    width: 500px;
+    padding: 50px 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.mytrip_booking .heading_booking{
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+.mytrip_booking .heading_booking h3{
+    color: #145de8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mytrip_booking .booking{
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.mytrip_booking .booking input{
+    height: 30px;
+border: 1px solid;
+margin:10px 0;
+width: 100%;
+border: #f8f9fa;
+background-color: white;
+}
+.mytrip_booking .booking input:focus{
+    border: none;
+}
+.mytrip_booking .booking .button_group{
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mytrip_booking .booking .button_group button{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #145de8;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}

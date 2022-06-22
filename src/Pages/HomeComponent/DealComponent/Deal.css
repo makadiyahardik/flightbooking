@@ -1,0 +1,43 @@
+.deal{
+    padding: 150px 120px;
+    align-items: center;
+    justify-content: center;
+}
+.google_image{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.google_image h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border-bottom: 2px solid blue;
+   margin: 10px 500px; */
+}
+.booking_reasons {
+    display: flex;
+   
+}
+.booking_reasons .single_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+.booking_reasons .single_div img{
+    width: 15%;
+}
+.booking_reasons .single_div .text_booking{
+   margin-left: 20px;
+ 
+}
+.booking_reasons .single_div .text_booking h1{
+   margin-top: 0;
+   padding: 0;
+   margin-bottom: 15px;
+  
+ }
+ .booking_reasons .single_div .text_booking p{
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+ }

@@ -1,0 +1,39 @@
+.footer_section{
+    padding: 50px 120px;
+    background-color: #1246b5;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style: none;
+   align-items: center;
+   justify-content: center;
+
+
+}
+.footer_section .main_footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+  justify-content: center;
+}
+.main_footer .single_footer ul h3{
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600;
+}
+.main_footer .single_footer ul h2{
+    font-family: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main_footer .single_footer ul  li{
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.main_footer .single_footer ul  a{
+    text-decoration: none;
+    color: white;
+}
+.main_footer .single_footer ul .li_list{
+ font-weight: bold;
+ font-size: 1.2rem;
+}
